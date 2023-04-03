@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\Crud.Example.Infra.Messaging\Crud.Example.Infrastructure.Messaging.csproj" />
+    <ProjectReference Include="..\Crud.Example.Domain\Crud.Example.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
