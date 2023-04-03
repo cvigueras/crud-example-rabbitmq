@@ -62,8 +62,6 @@ A user must be previously registered with Swagger, for example, and then authent
 
 The third-party DLL that has been used has been Automapper, to be able to map the entities with the DTOs, although this step does not make much sense right now, because it has not given me time to implement more Business logic in the domain layer, for this mapping to be really necessary.
 
-I haven't had time to test, mainly because it didn't make much sense to do them since there is no logic in the domain layer to test either. For this reason, I have not been able to implement the Test with Mock data, and even with accurate data, since the Local connection to it is possible.
-
 The messaging project was created to send Orders to Shops with RabbitMQ and an event would collect those messages to automatically notify the Shop that an order had been assigned to it. I have the server mounted in Local. I have used Domain Events to notify RabbitMQ about the removed items and expired items.
 
-The IoC layer handles the Dependency Injection responsibility of the entire application. To decouple it from the Presentation layer, a project has been created for that.
+The IoC layer handles the Dependency Injection responsibility of the entire application. To decouple it from the Presentation layer, a project has been created for that reason.
