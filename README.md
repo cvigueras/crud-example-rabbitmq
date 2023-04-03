@@ -1,7 +1,5 @@
 # crud-example-rabbitmq
 
-# Crud.Example.RabbitMQ
-
 # 1.- Initial setup:
 
 Open power shell and run as administrator then run the following command
